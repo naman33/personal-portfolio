@@ -1,10 +1,14 @@
-<!-- 404.html -->
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=./" />
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=/personal-portfolio/" />
+    <script>
+      window.location.replace("/personal-portfolio/" + window.location.search + window.location.hash);
+    </script>
   </head>
   <body>
-    <p>Redirecting to home…</p>
+    <p>Redirecting...</p>
   </body>
 </html>
